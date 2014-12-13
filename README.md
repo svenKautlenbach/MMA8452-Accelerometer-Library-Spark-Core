@@ -1,5 +1,4 @@
-Triple Axis Accelerometer Breakout - MMA8452Q
-Modified for use with the Spark Core
+Triple Axis Accelerometer Breakout - MMA8452Q Modified for use with the Spark Core
 =============================================
 
 [![Triple Axis Accelerometer Breakout - MMA8452Q](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/0/9/5/5/10955-01_i_ma.jpg)  
