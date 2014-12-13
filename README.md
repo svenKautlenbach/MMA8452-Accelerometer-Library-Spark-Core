@@ -1,4 +1,4 @@
-Triple Axis Accelerometer Breakout - MMA8452Q
+Triple Axis Accelerometer Breakout - MMA8452Q Modified for use with the Spark Core
 =============================================
 
 [![Triple Axis Accelerometer Breakout - MMA8452Q](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/0/9/5/5/10955-01_i_ma.jpg)  
@@ -9,8 +9,6 @@ This breakout board makes it easy to use the tiny MMA8452Q accelerometer in your
 Repository Contents
 -------------------
 * **/Firmware** - Example Arduino sketches for interfacing with the accelerometer
-* **/Hardware** - All Eagle design files (.brd, .sch)
-
 
 License Information
 -------------------
