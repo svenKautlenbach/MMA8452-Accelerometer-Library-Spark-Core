@@ -1,0 +1,7 @@
+{
+    "name": "MMA8452-Accelerometer-Library-Spark-Core",
+    "version": "0.0.1",
+    "author": "SJim Lindblom @ SparkFun Electronics and modified by Dan Dawson for Spark Core",
+    "license": "Choose a license",
+    "description": "Spark Core library for the SparkFun Triple Axis Accelerometer Breakout - MMA8452Q (SEN-10955)"
+}
