@@ -1,8 +1,10 @@
 /******************************************************************************
-SFE_MMA8452Q.cpp
-SFE_MMA8452Q Library Source File
+MMA8452-Accelerometer-Library-Spark-Core.cpp
+MMA8452-Accelerometer-Library-Spark-Core Library Source File
 Jim Lindblom @ SparkFun Electronics
 Original Creation Date: June 3, 2014
+Modified by Dan Dawson: December 19, 2014
+Original Source:
 https://github.com/sparkfun/MMA8452_Accelerometer
 
 This file implements all functions of the MMA8452Q class. Functions here range
@@ -19,7 +21,7 @@ local, and you've found our code helpful, please buy us a round!
 Distributed as-is; no warranty is given.
 ******************************************************************************/
 
-#include "SFE_MMA8452Q.h"
+#include "MMA8452-Accelerometer-Library-Spark-Core.h"
 /* #include <Arduino.h> */	// Not needed for Spark Core
 /* #include <Wire.h> */		// Not needed for Spark Core
 

@@ -23,7 +23,7 @@
  */
 
 /* #include <Wire.h> */ // Used for I2C
-#include "SFE_MMA8452Q.h"
+#include "MMA8452-Accelerometer-Library-Spark-Core/MMA8452-Accelerometer-Library-Spark-Core.h" // Includes the SFE_MMA8452Q library
 
 // The SparkFun breakout board defaults to 1, set to 0 if SA0 jumper on the bottom of the board is set
 #define MMA8452_ADDRESS 0x1D  // 0x1D if SA0 is high, 0x1C if low

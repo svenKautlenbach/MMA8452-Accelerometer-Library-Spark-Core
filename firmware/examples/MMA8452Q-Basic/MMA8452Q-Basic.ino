@@ -29,7 +29,7 @@ local, and you've found our code helpful, please buy us a round!
 Distributed as-is; no warranty is given.
 ******************************************************************************/
 /* #include <Wire.h> */ // Not needed for Spark Core
-#include "SFE_MMA8452Q.h" // Includes the SFE_MMA8452Q library
+#include "MMA8452-Accelerometer-Library-Spark-Core/MMA8452-Accelerometer-Library-Spark-Core.h" // Includes the SFE_MMA8452Q library
 
 // Begin using the library by creating an instance of the MMA8452Q
 //  class. We'll call it "accel". That's what we'll reference from

@@ -1,8 +1,10 @@
 /******************************************************************************
-SFE_MMA8452Q.h
-SFE_MMA8452Q Library Header File
+MMA8452-Accelerometer-Library-Spark-Core.h
+MMA8452-Accelerometer-Library-Spark-Core Library Header File
 Jim Lindblom @ SparkFun Electronics
 Original Creation Date: June 3, 2014
+Modified by Dan Dawson: December 19, 2014
+Original Source:
 https://github.com/sparkfun/MMA8452_Accelerometer
 
 This file prototypes the MMA8452Q class, implemented in SFE_MMA8452Q.cpp. In
