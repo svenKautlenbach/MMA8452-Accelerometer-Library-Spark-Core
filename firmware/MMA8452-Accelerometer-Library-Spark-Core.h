@@ -18,8 +18,8 @@ local, and you've found our code helpful, please buy us a round!
 Distributed as-is; no warranty is given.
 ******************************************************************************/
 
-#ifndef SFE_MMA8452Q_h
-#define SFE_MMA8452Q_h
+#ifndef MMA8452-Accelerometer-Library-Spark-Core_h
+#define MMA8452-Accelerometer-Library-Spark-Core_h
 
 /* #include <Arduino.h> */	// Not needed for Spark Core
 #include "application.h"	// Needed for Spark Core
