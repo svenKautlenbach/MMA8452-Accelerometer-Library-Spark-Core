@@ -20,8 +20,7 @@ local, and you've found our code helpful, please buy us a round!
 Distributed as-is; no warranty is given.
 ******************************************************************************/
 
-#ifndef MMA8452-Accelerometer-Library-Spark-Core_h
-#define MMA8452-Accelerometer-Library-Spark-Core_h
+#pragma once
 
 /* #include <Arduino.h> */	// Not needed for Spark Core
 #include "application.h"	// Needed for Spark Core
@@ -92,21 +91,21 @@ enum MMA8452Q_ODR {ODR_800, ODR_400, ODR_200, ODR_100, ODR_50, ODR_12, ODR_6, OD
 ////////////////////////////////
 class MMA8452Q
 {
-public:	
+public:
     MMA8452Q(byte addr = 0x1D); // Constructor
-	
+
 	byte init(MMA8452Q_Scale fsr = SCALE_2G, MMA8452Q_ODR odr = ODR_800);
     void read();
 	byte available();
 	byte readTap();
 	byte readPL();
-	
+
     int x, y, z;
 	float cx, cy, cz;
 private:
 	byte address;
 	MMA8452Q_Scale scale;
-	
+
 	void standby();
 	void active();
 	void setupPL();
@@ -118,5 +117,3 @@ private:
 	byte readRegister(MMA8452Q_Register reg);
     void readRegisters(MMA8452Q_Register reg, byte *buffer, byte len);
 };
-
-#endif
